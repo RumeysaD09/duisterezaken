@@ -1,0 +1,124 @@
+@font-face {
+    font-family: HitMePunk;
+    src: url(fonts/hit-me-punk.12.ttf) format(truetype);
+}
+
+/* Van me eigen portfolio code gepakt rumeysademirci.com */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Voor header en nav heb ik gebruik gemaakt van Chatgpt, voor het positioneren */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #C1B59C;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30%;
+    height: 30%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: HitMePunk;
+    font-size: 2rem;
+    padding: 2rem;
+    color: black;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #B02F37;
+}
+
+/* data banner */
+.data {
+    background-color:#B02F37;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 0em 0.5em 0em;
+}
+
+.data h2{
+    font-family: HitMePunk;
+    font-size: 2rem;
+}
+
+/* recente aflevering */
+.landingaflevering {
+    background-color: #C1B59C;
+}
+
+/* over ons */
+/* footer */
+footer{
+    background-color: #C1B59C;
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+
+}
+footer a {
+    text-decoration: none;
+    color: black;
+  
+}
+
+footer img {
+    height: 2%;
+    width: 2%;
+    
+}
+
+.afleveringenbanner {
+    width: 100vw;
+    height: 50%;
+    background-color: black;
+    justify-content: center;
+}
+
+.afleveringenbanner h1 {
+    color: #B02F37;
+    font-family: HitMePunk;
+    text-align: center;
+}
+
+.afleveringenbanner h2 {
+    color: #B02F37;
+    font-family: HitMePunk;
+    text-align: center;
+}
+
+.afleveringencontent {
+    background-color: #C1B59C;
+}
+
+.box1 {
+    width: 35%;
+    height: 35%;
+    
+}
